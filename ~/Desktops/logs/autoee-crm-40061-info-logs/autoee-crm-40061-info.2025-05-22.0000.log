@@ -1,0 +1,636 @@
+2025-05-22 13:27:07.792 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/tenant/get-by-website) 参数({website=117.72.69.150:5001})]
+2025-05-22 13:27:07.796 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/captcha/get) 参数({"captchaType":"blockPuzzle"})]
+2025-05-22 13:27:07.902 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/tenant/get-by-website) 耗时(47 ms)]
+2025-05-22 13:27:07.953 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/captcha/get) 耗时(98 ms)]
+2025-05-22 13:27:09.106 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/tenant/get-id-by-name) 参数({name=CRM平台})]
+2025-05-22 13:27:09.122 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/tenant/get-id-by-name) 耗时(14 ms)]
+2025-05-22 13:27:09.143 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/auth/login) 参数({"tenantName":"CRM平台","username":"admin","password":"admin123","rememberMe":true})]
+2025-05-22 13:27:09.272 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/auth/login) 耗时(128 ms)]
+2025-05-22 13:27:09.302 [http-nio-40061-exec-9] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dict-data/simple-list) 无参数]
+2025-05-22 13:27:09.444 [http-nio-40061-exec-9] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dict-data/simple-list) 耗时(141 ms)]
+2025-05-22 13:27:09.462 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/auth/get-permission-info) 无参数]
+2025-05-22 13:27:09.511 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/auth/get-permission-info) 耗时(49 ms)]
+2025-05-22 13:27:10.544 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 无参数]
+2025-05-22 13:27:10.545 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:27:10.561 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(15 ms)]
+2025-05-22 13:27:10.572 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 耗时(27 ms)]
+2025-05-22 13:29:10.490 [http-nio-40061-exec-9] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:29:10.518 [http-nio-40061-exec-9] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(27 ms)]
+2025-05-22 13:30:27.584 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/customer/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10})]
+2025-05-22 13:30:27.854 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.ip.core.utils.AreaUtils.<init>(65) | 启动加载 AreaUtils 成功，耗时 (16) 毫秒
+2025-05-22 13:30:27.860 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/page) 耗时(275 ms)]
+2025-05-22 13:30:32.070 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/tenant/page) 参数({pageNo=1, pageSize=10})]
+2025-05-22 13:30:32.073 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/customer/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10})]
+2025-05-22 13:30:32.105 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/tenant/page) 耗时(33 ms)]
+2025-05-22 13:30:32.140 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/page) 耗时(65 ms)]
+2025-05-22 13:30:32.156 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/tenant-package/simple-list) 无参数]
+2025-05-22 13:30:32.170 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/tenant-package/simple-list) 耗时(13 ms)]
+2025-05-22 13:30:34.329 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/customer/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10})]
+2025-05-22 13:30:34.331 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dept/simple-list) 无参数]
+2025-05-22 13:30:34.331 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/page) 参数({pageNo=1, pageSize=10})]
+2025-05-22 13:30:34.358 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dept/simple-list) 耗时(26 ms)]
+2025-05-22 13:30:34.375 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/page) 耗时(45 ms)]
+2025-05-22 13:30:34.390 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/page) 耗时(57 ms)]
+2025-05-22 13:32:24.077 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dict-data/simple-list) 无参数]
+2025-05-22 13:32:24.196 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dict-data/simple-list) 耗时(117 ms)]
+2025-05-22 13:32:25.124 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:32:25.149 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 无参数]
+2025-05-22 13:32:25.157 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(22 ms)]
+2025-05-22 13:32:25.159 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 耗时(9 ms)]
+2025-05-22 13:33:49.311 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dict-data/simple-list) 无参数]
+2025-05-22 13:33:49.430 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dict-data/simple-list) 耗时(117 ms)]
+2025-05-22 13:33:50.342 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:33:50.362 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 无参数]
+2025-05-22 13:33:50.370 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(27 ms)]
+2025-05-22 13:33:50.378 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 耗时(15 ms)]
+2025-05-22 13:33:52.925 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/contact/page) 参数({sceneType=1, pageNo=1, pageSize=10})]
+2025-05-22 13:33:53.012 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/contact/page) 耗时(86 ms)]
+2025-05-22 13:33:53.037 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/crm/customer/simple-list) 无参数]
+2025-05-22 13:33:53.048 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/simple-list) 耗时(10 ms)]
+2025-05-22 13:33:53.246 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/customer/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10})]
+2025-05-22 13:33:53.308 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/page) 耗时(60 ms)]
+2025-05-22 13:33:53.990 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/customer/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10})]
+2025-05-22 13:33:53.991 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/clue/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10, telephone=, transformStatus=false})]
+2025-05-22 13:33:54.026 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/page) 耗时(35 ms)]
+2025-05-22 13:33:54.062 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/clue/page) 耗时(69 ms)]
+2025-05-22 13:33:56.679 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/customer/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10})]
+2025-05-22 13:33:56.683 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/post/page) 参数({code=, pageNo=1, name=, pageSize=10})]
+2025-05-22 13:33:56.752 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/page) 耗时(71 ms)]
+2025-05-22 13:33:56.759 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/post/page) 耗时(75 ms)]
+2025-05-22 13:33:57.582 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/customer/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10})]
+2025-05-22 13:33:57.584 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/menu/list) 无参数]
+2025-05-22 13:33:57.624 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/page) 耗时(40 ms)]
+2025-05-22 13:33:57.786 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/menu/list) 耗时(201 ms)]
+2025-05-22 13:34:02.466 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/crm/customer/page) 参数({sceneType=1, pageNo=1, name=, mobile=, pageSize=10})]
+2025-05-22 13:34:02.466 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dept/simple-list) 无参数]
+2025-05-22 13:34:02.472 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/page) 参数({pageNo=1, pageSize=10})]
+2025-05-22 13:34:02.520 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dept/simple-list) 耗时(53 ms)]
+2025-05-22 13:34:02.527 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/page) 耗时(54 ms)]
+2025-05-22 13:34:02.539 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/crm/customer/page) 耗时(72 ms)]
+2025-05-22 13:34:08.070 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dept/simple-list) 无参数]
+2025-05-22 13:34:08.117 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dept/simple-list) 耗时(46 ms)]
+2025-05-22 13:34:08.128 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/post/simple-list) 无参数]
+2025-05-22 13:34:08.135 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/post/simple-list) 耗时(6 ms)]
+2025-05-22 13:34:15.649 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/create) 参数({"nickname":"cjf","deptId":"","mobile":"","email":"","username":"cjf","password":"cjf","postIds":[],"remark":"","status":0,"roleIds":[]})]
+2025-05-22 13:34:15.709 [http-nio-40061-exec-6] WARN  cn.iocoder.yudao.framework.web.core.handler.GlobalExceptionHandler.methodArgumentNotValidExceptionExceptionHandler(135) | [methodArgumentNotValidExceptionExceptionHandler]
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public cn.iocoder.yudao.framework.common.pojo.CommonResult<java.lang.Long> cn.iocoder.yudao.module.system.controller.admin.user.UserController.createUser(cn.iocoder.yudao.module.system.controller.admin.user.vo.user.UserSaveReqVO) with 3 errors: [Field error in object 'userSaveReqVO' on field 'password': rejected value [cjf]; codes [Length.userSaveReqVO.password,Length.password,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.password,password]; arguments []; default message [password],16,4]; default message [密码长度为 4-16 位]] [Field error in object 'userSaveReqVO' on field 'username': rejected value [cjf]; codes [Pattern.userSaveReqVO.username,Pattern.username,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.username,username]; arguments []; default message [username],[Ljavax.validation.constraints.Pattern$Flag;@39f9b56a,^[a-zA-Z0-9]{4,30}$]; default message [用户账号由 数字、字母 组成]] [Field error in object 'userSaveReqVO' on field 'username': rejected value [cjf]; codes [Size.userSaveReqVO.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.username,username]; arguments []; default message [username],30,4]; default message [用户账号长度为 4-30 个字符]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:141)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:903)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:809)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:114)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.module.bpm.framework.web.core.FlowableWebFilter.doFilterInternal(FlowableWebFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tenant.core.security.TenantSecurityWebFilter.doFilterInternal(TenantSecurityWebFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:164)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at cn.iocoder.yudao.framework.security.core.filter.TokenAuthenticationFilter.doFilterInternal(TokenAuthenticationFilter.java:68)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tenant.core.web.TenantContextWebFilter.doFilterInternal(TenantContextWebFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.web.core.filter.CacheRequestBodyFilter.doFilterInternal(CacheRequestBodyFilter.java:22)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tracer.core.filter.TraceFilter.doFilterInternal(TraceFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2025-05-22 13:34:15.711 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/create) 耗时(61 ms)]
+2025-05-22 13:34:21.690 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/create) 参数({"nickname":"cjf","deptId":"","mobile":"","email":"","username":"cjf","password":"cjfcjfcjf","postIds":[],"remark":"","status":0,"roleIds":[]})]
+2025-05-22 13:34:21.696 [http-nio-40061-exec-7] WARN  cn.iocoder.yudao.framework.web.core.handler.GlobalExceptionHandler.methodArgumentNotValidExceptionExceptionHandler(135) | [methodArgumentNotValidExceptionExceptionHandler]
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public cn.iocoder.yudao.framework.common.pojo.CommonResult<java.lang.Long> cn.iocoder.yudao.module.system.controller.admin.user.UserController.createUser(cn.iocoder.yudao.module.system.controller.admin.user.vo.user.UserSaveReqVO) with 2 errors: [Field error in object 'userSaveReqVO' on field 'username': rejected value [cjf]; codes [Pattern.userSaveReqVO.username,Pattern.username,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.username,username]; arguments []; default message [username],[Ljavax.validation.constraints.Pattern$Flag;@39f9b56a,^[a-zA-Z0-9]{4,30}$]; default message [用户账号由 数字、字母 组成]] [Field error in object 'userSaveReqVO' on field 'username': rejected value [cjf]; codes [Size.userSaveReqVO.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.username,username]; arguments []; default message [username],30,4]; default message [用户账号长度为 4-30 个字符]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:141)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:903)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:809)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:114)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.module.bpm.framework.web.core.FlowableWebFilter.doFilterInternal(FlowableWebFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tenant.core.security.TenantSecurityWebFilter.doFilterInternal(TenantSecurityWebFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:164)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at cn.iocoder.yudao.framework.security.core.filter.TokenAuthenticationFilter.doFilterInternal(TokenAuthenticationFilter.java:68)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tenant.core.web.TenantContextWebFilter.doFilterInternal(TenantContextWebFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.web.core.filter.CacheRequestBodyFilter.doFilterInternal(CacheRequestBodyFilter.java:22)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tracer.core.filter.TraceFilter.doFilterInternal(TraceFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2025-05-22 13:34:21.711 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/create) 耗时(19 ms)]
+2025-05-22 13:34:27.685 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/create) 参数({"nickname":"cjf","deptId":"","mobile":"","email":"","username":"cjf","password":"cjfcjfcjf","postIds":[],"remark":"","status":0,"roleIds":[]})]
+2025-05-22 13:34:27.690 [http-nio-40061-exec-8] WARN  cn.iocoder.yudao.framework.web.core.handler.GlobalExceptionHandler.methodArgumentNotValidExceptionExceptionHandler(135) | [methodArgumentNotValidExceptionExceptionHandler]
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public cn.iocoder.yudao.framework.common.pojo.CommonResult<java.lang.Long> cn.iocoder.yudao.module.system.controller.admin.user.UserController.createUser(cn.iocoder.yudao.module.system.controller.admin.user.vo.user.UserSaveReqVO) with 2 errors: [Field error in object 'userSaveReqVO' on field 'username': rejected value [cjf]; codes [Pattern.userSaveReqVO.username,Pattern.username,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.username,username]; arguments []; default message [username],[Ljavax.validation.constraints.Pattern$Flag;@39f9b56a,^[a-zA-Z0-9]{4,30}$]; default message [用户账号由 数字、字母 组成]] [Field error in object 'userSaveReqVO' on field 'username': rejected value [cjf]; codes [Size.userSaveReqVO.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.username,username]; arguments []; default message [username],30,4]; default message [用户账号长度为 4-30 个字符]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:141)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:903)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:809)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:114)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.module.bpm.framework.web.core.FlowableWebFilter.doFilterInternal(FlowableWebFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tenant.core.security.TenantSecurityWebFilter.doFilterInternal(TenantSecurityWebFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:164)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at cn.iocoder.yudao.framework.security.core.filter.TokenAuthenticationFilter.doFilterInternal(TokenAuthenticationFilter.java:68)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tenant.core.web.TenantContextWebFilter.doFilterInternal(TenantContextWebFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.web.core.filter.CacheRequestBodyFilter.doFilterInternal(CacheRequestBodyFilter.java:22)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tracer.core.filter.TraceFilter.doFilterInternal(TraceFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2025-05-22 13:34:27.693 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/create) 耗时(6 ms)]
+2025-05-22 13:34:33.083 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/create) 参数({"nickname":"111cjf","deptId":"","mobile":"","email":"","username":"cjf","password":"cjfcjfcjf","postIds":[],"remark":"","status":0,"roleIds":[]})]
+2025-05-22 13:34:33.086 [http-nio-40061-exec-5] WARN  cn.iocoder.yudao.framework.web.core.handler.GlobalExceptionHandler.methodArgumentNotValidExceptionExceptionHandler(135) | [methodArgumentNotValidExceptionExceptionHandler]
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public cn.iocoder.yudao.framework.common.pojo.CommonResult<java.lang.Long> cn.iocoder.yudao.module.system.controller.admin.user.UserController.createUser(cn.iocoder.yudao.module.system.controller.admin.user.vo.user.UserSaveReqVO) with 2 errors: [Field error in object 'userSaveReqVO' on field 'username': rejected value [cjf]; codes [Pattern.userSaveReqVO.username,Pattern.username,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.username,username]; arguments []; default message [username],[Ljavax.validation.constraints.Pattern$Flag;@39f9b56a,^[a-zA-Z0-9]{4,30}$]; default message [用户账号由 数字、字母 组成]] [Field error in object 'userSaveReqVO' on field 'username': rejected value [cjf]; codes [Size.userSaveReqVO.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userSaveReqVO.username,username]; arguments []; default message [username],30,4]; default message [用户账号长度为 4-30 个字符]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:141)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:903)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:809)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:114)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.module.bpm.framework.web.core.FlowableWebFilter.doFilterInternal(FlowableWebFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tenant.core.security.TenantSecurityWebFilter.doFilterInternal(TenantSecurityWebFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:164)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at cn.iocoder.yudao.framework.security.core.filter.TokenAuthenticationFilter.doFilterInternal(TokenAuthenticationFilter.java:68)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tenant.core.web.TenantContextWebFilter.doFilterInternal(TenantContextWebFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.web.core.filter.CacheRequestBodyFilter.doFilterInternal(CacheRequestBodyFilter.java:22)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.iocoder.yudao.framework.tracer.core.filter.TraceFilter.doFilterInternal(TraceFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2025-05-22 13:34:33.088 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/create) 耗时(4 ms)]
+2025-05-22 13:34:37.261 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/create) 参数({"nickname":"111cjf","deptId":"","mobile":"","email":"","username":"cjf111","password":"cjfcjfcjf","postIds":[],"remark":"","status":0,"roleIds":[]})]
+2025-05-22 13:34:37.336 [http-nio-40061-exec-2] INFO  org.springframework.aop.interceptor.AsyncExecutionAspectSupport.getDefaultExecutor(243) | More than one TaskExecutor bean found within the context, and none is named 'taskExecutor'. Mark one of them as primary or name it 'taskExecutor' (possibly as an alias) in order to use it for async processing: [jmReportTaskExecutor, applicationTaskExecutor]
+2025-05-22 13:34:37.340 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/create) 耗时(77 ms)]
+2025-05-22 13:34:37.359 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/page) 参数({pageNo=1, pageSize=10})]
+2025-05-22 13:34:37.379 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/page) 耗时(19 ms)]
+2025-05-22 13:34:58.659 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/tenant/get-by-website) 参数({website=117.72.69.150:5001})]
+2025-05-22 13:34:58.661 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/captcha/get) 参数({"captchaType":"blockPuzzle"})]
+2025-05-22 13:34:58.671 [http-nio-40061-exec-10] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/tenant/get-by-website) 耗时(11 ms)]
+2025-05-22 13:34:58.701 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/captcha/get) 耗时(39 ms)]
+2025-05-22 13:34:59.918 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/tenant/get-id-by-name) 参数({name=CRM平台})]
+2025-05-22 13:34:59.927 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/tenant/get-id-by-name) 耗时(7 ms)]
+2025-05-22 13:34:59.939 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/auth/login) 参数({"tenantName":"CRM平台","username":"admin","password":"admin123","rememberMe":true})]
+2025-05-22 13:35:00.061 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/auth/login) 耗时(121 ms)]
+2025-05-22 13:35:00.084 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dict-data/simple-list) 无参数]
+2025-05-22 13:35:00.169 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dict-data/simple-list) 耗时(83 ms)]
+2025-05-22 13:35:00.176 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/auth/get-permission-info) 无参数]
+2025-05-22 13:35:00.204 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/auth/get-permission-info) 耗时(28 ms)]
+2025-05-22 13:35:01.253 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dept/simple-list) 无参数]
+2025-05-22 13:35:01.254 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:35:01.255 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/user/page) 参数({pageNo=1, pageSize=10})]
+2025-05-22 13:35:01.288 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 无参数]
+2025-05-22 13:35:01.305 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dept/simple-list) 耗时(51 ms)]
+2025-05-22 13:35:01.306 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(51 ms)]
+2025-05-22 13:35:01.307 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 耗时(16 ms)]
+2025-05-22 13:35:01.314 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/user/page) 耗时(58 ms)]
+2025-05-22 13:37:01.242 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:37:01.264 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(21 ms)]
+2025-05-22 13:39:01.234 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:39:01.262 [http-nio-40061-exec-3] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(26 ms)]
+2025-05-22 13:41:01.247 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:41:01.270 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(19 ms)]
+2025-05-22 13:41:55.760 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/tenant/get-by-website) 参数({website=117.72.69.150:5001})]
+2025-05-22 13:41:55.762 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/captcha/get) 参数({"captchaType":"blockPuzzle"})]
+2025-05-22 13:41:55.772 [http-nio-40061-exec-8] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/tenant/get-by-website) 耗时(11 ms)]
+2025-05-22 13:41:55.827 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/captcha/get) 耗时(64 ms)]
+2025-05-22 13:41:58.038 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/tenant/get-id-by-name) 参数({name=CRM平台})]
+2025-05-22 13:41:58.048 [http-nio-40061-exec-1] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/tenant/get-id-by-name) 耗时(8 ms)]
+2025-05-22 13:41:58.059 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(51) | [preHandle][开始请求 URL(/admin-api/system/auth/login) 参数({"tenantName":"CRM平台","username":"admin","password":"admin123","rememberMe":true})]
+2025-05-22 13:41:58.171 [http-nio-40061-exec-4] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/auth/login) 耗时(111 ms)]
+2025-05-22 13:41:58.189 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/dict-data/simple-list) 无参数]
+2025-05-22 13:41:58.278 [http-nio-40061-exec-6] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/dict-data/simple-list) 耗时(88 ms)]
+2025-05-22 13:41:58.292 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/auth/get-permission-info) 无参数]
+2025-05-22 13:41:58.327 [http-nio-40061-exec-7] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/auth/get-permission-info) 耗时(34 ms)]
+2025-05-22 13:41:59.244 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/system/notify-message/get-unread-count) 无参数]
+2025-05-22 13:41:59.299 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.preHandle(49) | [preHandle][开始请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 无参数]
+2025-05-22 13:41:59.302 [http-nio-40061-exec-5] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/system/notify-message/get-unread-count) 耗时(56 ms)]
+2025-05-22 13:41:59.316 [http-nio-40061-exec-2] INFO  cn.iocoder.yudao.framework.apilog.core.interceptor.ApiAccessLogInterceptor.afterCompletion(70) | [afterCompletion][完成请求 URL(/admin-api/infra/file/4/get/4296023cc7880ec82ba0acac52d11239a1205c66c1038c8d376c46fdac19617f.png) 耗时(16 ms)]

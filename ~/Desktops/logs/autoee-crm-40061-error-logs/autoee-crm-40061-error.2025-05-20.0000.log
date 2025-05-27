@@ -1,0 +1,15 @@
+2025-05-20 21:42:00.880 [main] ERROR io.netty.resolver.dns.DnsServerAddressStreamProviders.<clinit>(79) | Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2025-05-20 21:42:10.663 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 40061 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 40061 or configure this application to listen on another port.
+

@@ -1,0 +1,123 @@
+2025-05-20 21:41:55.807 [background-preinit] INFO  org.hibernate.validator.internal.util.Version.<clinit>(21) | HV000001: Hibernate Validator 6.2.5.Final
+2025-05-20 21:41:55.846 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarting(55) | Starting YudaoServerApplication using Java 1.8.0_432 on xiaoyudeMacBook-Pro.local with PID 11695 (/Users/xiaoyu/Desktop/autoee-crm-master/yudao-server/target/classes started by xiaoyu in /Users/xiaoyu/Desktop/autoee-crm-master)
+2025-05-20 21:41:55.847 [main] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(638) | The following 1 profile is active: "local"
+2025-05-20 21:41:57.983 [main] INFO  org.jeecgframework.minidao.auto.MinidaoAutoConfiguration.miniDaoBeanScannerConfigurer(23) |  ******************* init miniDao config [ begin ] *********************** 
+2025-05-20 21:41:57.983 [main] INFO  org.jeecgframework.minidao.auto.MinidaoAutoConfiguration.miniDaoBeanScannerConfigurer(25) |  ------ minidao.base-package ------- org.jeecg.modules.jmreport.desreport.*
+2025-05-20 21:41:57.983 [main] INFO  org.jeecgframework.minidao.auto.MinidaoAutoConfiguration.miniDaoBeanScannerConfigurer(42) |  *******************  init miniDao config  [ end ] *********************** 
+2025-05-20 21:41:58.117 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2025-05-20 21:41:58.117 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportLogDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2025-05-20 21:41:58.118 [main] INFO  org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner.doScan(48) | register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2025-05-20 21:41:58.730 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(108) | Tomcat initialized with port(s): 40061 (http)
+2025-05-20 21:41:58.735 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Initializing ProtocolHandler ["http-nio-40061"]
+2025-05-20 21:41:58.736 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Starting service [Tomcat]
+2025-05-20 21:41:58.736 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-05-20 21:41:58.810 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Initializing Spring embedded WebApplicationContext
+2025-05-20 21:41:58.811 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(292) | Root WebApplicationContext: initialization completed in 2858 ms
+2025-05-20 21:41:58.816 [main] INFO  org.jeecg.modules.jmreport.config.init.JimuReportConfiguration.afterPropertiesSet(91) |  Init JimuReport Config [ Token Interceptor & Resource Locations ] 
+2025-05-20 21:41:59.143 [main] INFO  com.alibaba.druid.pool.DruidDataSource.init(673) | {dataSource-1,master} inited
+2025-05-20 21:41:59.145 [main] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource.addDataSource(158) | dynamic-datasource - add a datasource named [slave] success
+2025-05-20 21:41:59.146 [main] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource.addDataSource(158) | dynamic-datasource - add a datasource named [master] success
+2025-05-20 21:41:59.146 [main] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource.afterPropertiesSet(241) | dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2025-05-20 21:42:00.843 [main] INFO  org.redisson.Version.logVersion(43) | Redisson 3.41.0
+2025-05-20 21:42:00.880 [main] ERROR io.netty.resolver.dns.DnsServerAddressStreamProviders.<clinit>(79) | Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2025-05-20 21:42:00.988 [redisson-netty-1-5] INFO  org.redisson.connection.ConnectionsHolder.lambda$initConnections$1(132) | 1 connections initialized for localhost/127.0.0.1:6379
+2025-05-20 21:42:01.023 [redisson-netty-1-20] INFO  org.redisson.connection.ConnectionsHolder.lambda$initConnections$1(132) | 24 connections initialized for localhost/127.0.0.1:6379
+2025-05-20 21:42:02.562 [main] INFO  com.xingyuv.captcha.service.impl.AbstractCaptchaService.init(87) | --->>>xingyuv captcha-plus 初始化验证码底图<<<---blockPuzzle
+2025-05-20 21:42:03.512 [main] INFO  org.quartz.impl.StdSchedulerFactory.instantiate(1220) | Using default implementation for ThreadExecutor
+2025-05-20 21:42:03.518 [main] INFO  org.quartz.core.SchedulerSignalerImpl.<init>(61) | Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-20 21:42:03.518 [main] INFO  org.quartz.core.QuartzScheduler.<init>(229) | Quartz Scheduler v.2.3.2 created.
+2025-05-20 21:42:03.524 [main] INFO  org.quartz.impl.jdbcjobstore.JobStoreSupport.initialize(672) | Using db table-based data access locking (synchronization).
+2025-05-20 21:42:03.525 [main] INFO  org.quartz.impl.jdbcjobstore.JobStoreCMT.initialize(145) | JobStoreCMT initialized.
+2025-05-20 21:42:03.525 [main] INFO  org.quartz.core.QuartzScheduler.initialize(294) | Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerName' with instanceId 'xiaoyudeMacBook-Pro.local1747748523513'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 25 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2025-05-20 21:42:03.525 [main] INFO  org.quartz.impl.StdSchedulerFactory.instantiate(1374) | Quartz scheduler 'schedulerName' initialized from an externally provided properties instance.
+2025-05-20 21:42:03.525 [main] INFO  org.quartz.impl.StdSchedulerFactory.instantiate(1378) | Quartz scheduler version: 2.3.2
+2025-05-20 21:42:03.526 [main] INFO  org.quartz.core.QuartzScheduler.setJobFactory(2293) | JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@22cf6c9c
+2025-05-20 21:42:03.916 [main] INFO  org.flowable.spring.boot.AbstractEngineAutoConfiguration.discoverDeploymentResources(104) | No deployment resources were found for autodeployment
+2025-05-20 21:42:04.403 [main] INFO  org.flowable.common.engine.impl.AbstractEngineConfiguration.initConfigurators(1084) | Found 2 Engine Configurators in total:
+2025-05-20 21:42:04.403 [main] INFO  org.flowable.common.engine.impl.AbstractEngineConfiguration.initConfigurators(1086) | class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2025-05-20 21:42:04.403 [main] INFO  org.flowable.common.engine.impl.AbstractEngineConfiguration.initConfigurators(1086) | class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2025-05-20 21:42:04.403 [main] INFO  org.flowable.common.engine.impl.AbstractEngineConfiguration.configuratorsBeforeInit(1112) | Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2025-05-20 21:42:04.407 [main] INFO  org.flowable.common.engine.impl.AbstractEngineConfiguration.configuratorsBeforeInit(1112) | Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2025-05-20 21:42:05.001 [main] INFO  org.flowable.common.engine.impl.AbstractEngineConfiguration.configuratorsAfterInit(1119) | Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2025-05-20 21:42:05.759 [main] INFO  liquibase.logging.core.JavaLogger.log(30) | Successfully acquired change log lock
+2025-05-20 21:42:06.081 [redisson-netty-1-22] WARN  org.redisson.connection.DNSMonitor.lambda$monitorMasters$3(112) | Use Redisson PRO version (https://redisson.pro) with Proxy mode feature to utilize all ip addresses: [redis://127.0.0.1:6379, redis://0:0:0:0:0:0:0:1:6379] resolved by: redis://localhost:6379
+2025-05-20 21:42:06.135 [main] INFO  liquibase.logging.core.JavaLogger.log(30) | Reading from `autoee-crm`.FLW_EV_DATABASECHANGELOG
+2025-05-20 21:42:06.175 [main] INFO  liquibase.logging.core.JavaLogger.log(30) | Successfully released change log lock
+2025-05-20 21:42:06.176 [main] INFO  org.flowable.eventregistry.impl.EventRegistryEngineImpl.<init>(53) | EventRegistryEngine default created
+2025-05-20 21:42:06.177 [main] INFO  org.flowable.common.engine.impl.AbstractEngineConfiguration.configuratorsAfterInit(1119) | Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2025-05-20 21:42:06.195 [main] INFO  org.flowable.idm.engine.impl.IdmEngineImpl.<init>(52) | IdmEngine default created
+2025-05-20 21:42:06.238 [main] INFO  org.flowable.engine.impl.ProcessEngineImpl.<init>(89) | ProcessEngine default created
+2025-05-20 21:42:06.259 [main] INFO  org.flowable.engine.impl.cmd.ValidateV5EntitiesCmd.execute(43) | Total of v5 deployments found: 0
+2025-05-20 21:42:07.948 [main] INFO  org.jeecg.modules.jmreport.config.JmReportExecutorConfig.afterPropertiesSet(42) |  Init JimuReport Config [ 线程池 ] 
+2025-05-20 21:42:08.969 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init>(58) | Exposing 17 endpoint(s) beneath base path '/actuator'
+2025-05-20 21:42:09.101 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain.<init>(55) | Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5393c04, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44a83ca4, org.springframework.security.web.context.SecurityContextPersistenceFilter@460306ab, org.springframework.security.web.header.HeaderWriterFilter@6325a546, org.springframework.web.filter.CorsFilter@3a8a2089, org.springframework.security.web.authentication.logout.LogoutFilter@2af114d2, cn.iocoder.yudao.framework.security.core.filter.TokenAuthenticationFilter@2f7d8a7c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ee0af8c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@386c6903, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c1ae95, org.springframework.security.web.session.SessionManagementFilter@74f1c9b9, org.springframework.security.web.access.ExceptionTranslationFilter@78026a45, org.springframework.security.web.access.intercept.AuthorizationFilter@6cd7c114]
+2025-05-20 21:42:09.147 [main] INFO  cn.iocoder.yudao.framework.dict.core.DictFrameworkUtils.init(73) | [init][初始化 DictFrameworkUtils 成功]
+2025-05-20 21:42:09.154 [main] INFO  cn.iocoder.yudao.framework.jackson.config.YudaoJacksonAutoConfiguration.jsonUtils(48) | [init][初始化 JsonUtils 成功]
+2025-05-20 21:42:09.381 [main] INFO  com.fhs.common.spring.SpringContextUtil.setApplicationContext(38) | ------SpringContextUtil setApplicationContext-------
+2025-05-20 21:42:10.020 [main] INFO  org.flowable.job.service.impl.asyncexecutor.AbstractAsyncExecutor.start(108) | Starting up the async job executor [org.flowable.spring.job.service.SpringAsyncExecutor] for engine bpmn
+2025-05-20 21:42:10.025 [Thread-36] INFO  org.flowable.job.service.impl.asyncexecutor.ResetExpiredJobsRunnable.run(63) | starting to reset expired jobs for engine bpmn
+2025-05-20 21:42:10.026 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Starting ProtocolHandler ["http-nio-40061"]
+2025-05-20 21:42:10.026 [Thread-34] INFO  org.flowable.job.service.impl.asyncexecutor.AcquireAsyncJobsDueRunnable.run(106) | starting to acquire async jobs due for engine bpmn
+2025-05-20 21:42:10.026 [Thread-35] INFO  org.flowable.job.service.impl.asyncexecutor.AcquireTimerJobsRunnable.run(109) | starting to acquire async jobs due for engine bpmn
+2025-05-20 21:42:10.029 [main] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(599) | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 40061 is already in use
+2025-05-20 21:42:10.043 [main] INFO  org.flowable.job.service.impl.asyncexecutor.AbstractAsyncExecutor.shutdown(165) | Shutting down the async job executor [org.flowable.spring.job.service.SpringAsyncExecutor] for engine bpmn
+2025-05-20 21:42:10.043 [flowable-bpmn-acquire-async-jobs] INFO  org.flowable.job.service.impl.asyncexecutor.AcquireAsyncJobsDueRunnable.run(143) | stopped async job due acquisition for engine bpmn
+2025-05-20 21:42:10.043 [flowable-bpmn-acquire-timer-jobs] INFO  org.flowable.job.service.impl.asyncexecutor.AcquireTimerJobsRunnable.run(131) | stopped async job due acquisition for engine bpmn
+2025-05-20 21:42:10.043 [flowable-bpmn-reset-expired-jobs] INFO  org.flowable.job.service.impl.asyncexecutor.ResetExpiredJobsRunnable.run(90) | stopped resetting expired jobs for engine bpmn
+2025-05-20 21:42:10.060 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(847) | Shutting down Quartz Scheduler
+2025-05-20 21:42:10.060 [main] INFO  org.quartz.core.QuartzScheduler.shutdown(666) | Scheduler schedulerName_$_xiaoyudeMacBook-Pro.local1747748523513 shutting down.
+2025-05-20 21:42:10.060 [main] INFO  org.quartz.core.QuartzScheduler.standby(585) | Scheduler schedulerName_$_xiaoyudeMacBook-Pro.local1747748523513 paused.
+2025-05-20 21:42:10.560 [main] INFO  org.quartz.core.QuartzScheduler.shutdown(740) | Scheduler schedulerName_$_xiaoyudeMacBook-Pro.local1747748523513 shutdown complete.
+2025-05-20 21:42:10.630 [main] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource.destroy(215) | dynamic-datasource start closing ....
+2025-05-20 21:42:10.632 [main] INFO  com.alibaba.druid.pool.DruidDataSource.close(1880) | {dataSource-0} closing ...
+2025-05-20 21:42:10.632 [main] INFO  com.baomidou.dynamic.datasource.destroyer.DefaultDataSourceDestroyer.destroy(98) | dynamic-datasource close the datasource named [slave] success,
+2025-05-20 21:42:10.632 [main] INFO  com.alibaba.druid.pool.DruidDataSource.close(1880) | {dataSource-1} closing ...
+2025-05-20 21:42:10.635 [main] INFO  com.alibaba.druid.pool.DruidDataSource.close(1953) | {dataSource-1} closed
+2025-05-20 21:42:10.636 [main] INFO  com.baomidou.dynamic.datasource.destroyer.DefaultDataSourceDestroyer.destroy(98) | dynamic-datasource close the datasource named [master] success,
+2025-05-20 21:42:10.636 [main] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource.destroy(219) | dynamic-datasource all closed success,bye
+2025-05-20 21:42:10.637 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Pausing ProtocolHandler ["http-nio-40061"]
+2025-05-20 21:42:10.637 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Stopping service [Tomcat]
+2025-05-20 21:42:10.639 [main] WARN  org.apache.juli.logging.DirectJDKLog.log(173) | The web application [ROOT] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+2025-05-20 21:42:10.640 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Stopping ProtocolHandler ["http-nio-40061"]
+2025-05-20 21:42:10.640 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(173) | Destroying ProtocolHandler ["http-nio-40061"]
+2025-05-20 21:42:10.652 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-05-20 21:42:10.663 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 40061 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 40061 or configure this application to listen on another port.
+
