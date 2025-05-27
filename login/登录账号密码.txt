@@ -1,0 +1,17 @@
+密码都是：
+admin123
+
+超级管理员账号：
+admin
+
+销售人员1账号：
+xsry1
+销售人员2账号：
+xsry2
+
+审批副部长1 ：
+techViceMinister1
+审批部长1账号：
+techMinister1
+查看用户1账号：
+techCommUser1

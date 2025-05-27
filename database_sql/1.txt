@@ -1,0 +1,4 @@
+使用工具类
+SqlTableNameConverter
+将数据库脚本放到工程根目录下
+执行工具类
