@@ -1,0 +1,6 @@
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-biz-data-permission/src/test/java/cn/iocoder/yudao/framework/datapermission/core/aop/DataPermissionAnnotationInterceptorTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-biz-data-permission/src/test/java/cn/iocoder/yudao/framework/datapermission/core/aop/DataPermissionContextHolderTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-biz-data-permission/src/test/java/cn/iocoder/yudao/framework/datapermission/core/db/DataPermissionRuleHandlerTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-biz-data-permission/src/test/java/cn/iocoder/yudao/framework/datapermission/core/rule/DataPermissionRuleFactoryImplTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-biz-data-permission/src/test/java/cn/iocoder/yudao/framework/datapermission/core/rule/dept/DeptDataPermissionRuleTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-biz-data-permission/src/test/java/cn/iocoder/yudao/framework/datapermission/core/util/DataPermissionUtilsTest.java

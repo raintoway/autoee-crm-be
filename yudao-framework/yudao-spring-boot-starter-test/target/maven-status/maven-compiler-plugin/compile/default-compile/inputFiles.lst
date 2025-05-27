@@ -1,0 +1,10 @@
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/config/RedisTestConfiguration.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/config/SqlInitializationTestConfiguration.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/core/ut/BaseDbAndRedisUnitTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/core/ut/BaseDbUnitTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/core/ut/BaseMockitoUnitTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/core/ut/BaseRedisUnitTest.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/core/ut/package-info.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/core/util/AssertUtils.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/core/util/RandomUtils.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-framework/yudao-spring-boot-starter-test/src/main/java/cn/iocoder/yudao/framework/test/package-info.java

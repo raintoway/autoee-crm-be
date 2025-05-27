@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.framework.datapermission.core.rule.dept.DeptDataPermissionRuleTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.256 s - in cn.iocoder.yudao.framework.datapermission.core.rule.dept.DeptDataPermissionRuleTest
