@@ -1,0 +1,13 @@
+cn/iocoder/yudao/module/crm/enums/business/CrmBusinessEndStatusEnum.class
+cn/iocoder/yudao/module/crm/enums/common/CrmBizTypeEnum.class
+cn/iocoder/yudao/module/crm/enums/common/CrmSceneTypeEnum.class
+cn/iocoder/yudao/module/crm/enums/ErrorCodeConstants.class
+cn/iocoder/yudao/module/crm/enums/customer/CrmCustomerLevelEnum.class
+cn/iocoder/yudao/module/crm/enums/customer/CrmCustomerLimitConfigTypeEnum.class
+cn/iocoder/yudao/module/crm/api/package-info.class
+cn/iocoder/yudao/module/crm/enums/permission/CrmPermissionLevelEnum.class
+cn/iocoder/yudao/module/crm/enums/DictTypeConstants.class
+cn/iocoder/yudao/module/crm/enums/product/CrmProductStatusEnum.class
+cn/iocoder/yudao/module/crm/enums/LogRecordConstants.class
+cn/iocoder/yudao/module/crm/enums/receivable/CrmReceivableReturnTypeEnum.class
+cn/iocoder/yudao/module/crm/enums/common/CrmAuditStatusEnum.class

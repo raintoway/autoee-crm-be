@@ -1,0 +1,13 @@
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/api/package-info.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/DictTypeConstants.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/ErrorCodeConstants.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/LogRecordConstants.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/business/CrmBusinessEndStatusEnum.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/common/CrmAuditStatusEnum.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/common/CrmBizTypeEnum.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/common/CrmSceneTypeEnum.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/customer/CrmCustomerLevelEnum.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/customer/CrmCustomerLimitConfigTypeEnum.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/permission/CrmPermissionLevelEnum.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/product/CrmProductStatusEnum.java
+/Users/xiaoyu/Desktop/autoee-crm-master/yudao-module-crm/yudao-module-crm-api/src/main/java/cn/iocoder/yudao/module/crm/enums/receivable/CrmReceivableReturnTypeEnum.java
