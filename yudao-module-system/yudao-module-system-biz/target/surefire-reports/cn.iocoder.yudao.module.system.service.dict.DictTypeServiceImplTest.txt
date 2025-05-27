@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.module.system.service.dict.DictTypeServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.415 s <<< FAILURE! - in cn.iocoder.yudao.module.system.service.dict.DictTypeServiceImplTest
+cn.iocoder.yudao.module.system.service.dict.DictTypeServiceImplTest.testDeleteDictType_success  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <DictTypeDO(super=BaseDO(createTime=2025-05-28T18:58:23, updateTime=2025-06-01T18:58:23, creator=KqH0IMMRAs, updater=cmI7Tzygqp, deleted=true), id=976989973383041, name=kndPAh58pe, type=t13ZuBJNnH, status=1, remark=0mKgaH1Sn9, deletedTime=2025-05-21T18:58:23.167)>
+	at cn.iocoder.yudao.module.system.service.dict.DictTypeServiceImplTest.testDeleteDictType_success(DictTypeServiceImplTest.java:150)
+
