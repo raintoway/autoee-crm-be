@@ -49,4 +49,3 @@ buildNumber.properties
 http-client-config.json
 logs/
 
-*.http
