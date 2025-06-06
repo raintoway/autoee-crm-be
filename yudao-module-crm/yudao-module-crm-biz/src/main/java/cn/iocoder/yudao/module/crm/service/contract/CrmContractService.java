@@ -5,8 +5,10 @@ import cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract.CrmCont
 import cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract.CrmContractSaveReqVO;
 import cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract.CrmContractTransferReqVO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.business.CrmBusinessDO;
+import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractCostDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractProductDO;
+import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractTripDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.customer.CrmCustomerDO;
 
 import javax.validation.Valid;
@@ -202,4 +204,6 @@ public interface CrmContractService {
      */
     List<CrmContractDO> getContractListByCustomerIdOwnerUserId(Long customerId, Long ownerUserId);
 
+    List<CrmContractTripDO> getContractTripListByContractId(Long id);
+    List<CrmContractCostDO> getContractCostListByContractId(Long id);
 }

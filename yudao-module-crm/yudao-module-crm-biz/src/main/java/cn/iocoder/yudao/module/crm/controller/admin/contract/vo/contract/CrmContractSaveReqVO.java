@@ -1,9 +1,12 @@
 package cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract;
 
+import cn.iocoder.yudao.framework.excel.core.annotations.DictFormat;
 import cn.iocoder.yudao.module.crm.framework.operatelog.core.CrmBusinessParseFunction;
 import cn.iocoder.yudao.module.crm.framework.operatelog.core.CrmContactParseFunction;
 import cn.iocoder.yudao.module.crm.framework.operatelog.core.CrmCustomerParseFunction;
 import cn.iocoder.yudao.module.crm.framework.operatelog.core.SysAdminUserParseFunction;
+
+import cn.iocoder.yudao.module.crm.enums.DictTypeConstants;
 import com.mzt.logapi.starter.annotation.DiffLogField;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
@@ -81,8 +84,20 @@ public class CrmContractSaveReqVO {
     @DiffLogField(name = "备注")
     private String remark;
 
+    @DictFormat(DictTypeConstants.CRM_TRIP_STATUS)
+    private Integer tripStatus;
+
+    @DictFormat(DictTypeConstants.CRM_PAYMENT_STATUS)
+    private Integer paymentStatus;
+
     @Schema(description = "产品列表")
     private List<Product> products;
+
+    @Schema(description = "行程列表")
+    private List<Trip> trips;
+
+    @Schema(description = "费用列表")
+    private List<Cost> costs;
 
     @Schema(description = "产品列表")
     @Data
@@ -108,4 +123,63 @@ public class CrmContractSaveReqVO {
 
     }
 
+
+    @Schema(description = "行程列表")
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Trip {
+
+        private  Long id;
+
+        private Long contractId;
+
+        @Schema(description = "行程信息", requiredMode = Schema.RequiredMode.REQUIRED, example = "1")
+        @NotNull(message = "行程信息不能为空")
+        private String tripInfo;
+
+        @Schema(description = "行程类型", requiredMode = Schema.RequiredMode.REQUIRED, example = "1")
+        @NotNull(message = "行程类型不能为空")
+        @DictFormat(DictTypeConstants.CRM_TRIP_TYPE)
+        private Integer type;
+
+        @Schema(description = "航班号", requiredMode = Schema.RequiredMode.REQUIRED, example = "1")
+        private String flightNo;
+
+        @Schema(description = "出发时间", requiredMode = Schema.RequiredMode.REQUIRED, example = "1")
+        @DateTimeFormat(pattern = FORMAT_YEAR_MONTH_DAY_HOUR_MINUTE_SECOND)
+        private LocalDateTime startTime;
+
+        @Schema(description = "结束时间", requiredMode = Schema.RequiredMode.REQUIRED, example = "1")
+        @DateTimeFormat(pattern = FORMAT_YEAR_MONTH_DAY_HOUR_MINUTE_SECOND)
+        private LocalDateTime endTime;
+
+        @Schema(description = "乘客人数", requiredMode = Schema.RequiredMode.REQUIRED, example = "1")
+        private Integer passengerNum;
+
+        private BigDecimal price;
+
+        @Schema(description = "车辆型号", requiredMode = Schema.RequiredMode.REQUIRED, example = "1")
+        private String carModel;
+        
+        @Schema(description = "备注", example = "你猜")
+        private String remark;
+    }
+
+
+
+    @Schema(description = "费用列表")
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Cost extends Trip {
+        private BigDecimal costPrice;
+
+        @DictFormat(DictTypeConstants.CRM_COST_TYPE)
+        private Integer costType;
+
+        private  String costRemark;
+
+        private List<String> costImages;
+    }
 }

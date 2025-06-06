@@ -16,8 +16,10 @@ import cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract.CrmCont
 import cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract.CrmContractTransferReqVO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.business.CrmBusinessDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.contact.CrmContactDO;
+import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractCostDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractProductDO;
+import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractTripDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.customer.CrmCustomerDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.product.CrmProductDO;
 import cn.iocoder.yudao.module.crm.service.business.CrmBusinessService;
@@ -124,6 +126,14 @@ public class CrmContractController {
                 MapUtils.findAndThen(productMap, businessProductVO.getProductId(),
                         product -> businessProductVO.setProductName(product.getName())
                                 .setProductNo(product.getNo()).setProductUnit(product.getUnit()))));
+
+        List<CrmContractTripDO> list = contractService.getContractTripListByContractId(contractVO.getId());
+        List<CrmContractCostDO> costList = contractService.getContractCostListByContractId(contractVO.getId());
+
+        List<CrmContractRespVO.Trip> trips = convertList(list, item -> BeanUtils.toBean(item, CrmContractRespVO.Trip.class));
+        List<CrmContractRespVO.Cost> costs = convertList(costList, item -> BeanUtils.toBean(item, CrmContractRespVO.Cost.class));
+        contractVO.setTrips(trips);
+        contractVO.setCosts(costs);
         return contractVO;
     }
 

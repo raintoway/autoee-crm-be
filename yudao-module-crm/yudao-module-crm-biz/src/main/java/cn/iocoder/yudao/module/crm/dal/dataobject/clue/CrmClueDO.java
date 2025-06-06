@@ -4,11 +4,15 @@ import cn.iocoder.yudao.framework.mybatis.core.dataobject.BaseDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.customer.CrmCustomerDO;
 import cn.iocoder.yudao.module.crm.enums.DictTypeConstants;
 import com.baomidou.mybatisplus.annotation.KeySequence;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.extension.handlers.FastjsonTypeHandler;
+
 import lombok.*;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 /**
  * CRM 线索 DO
@@ -125,4 +129,26 @@ public class CrmClueDO extends BaseDO {
      */
     private String remark;
 
+    /**
+     * 操作员id
+     */
+    private Long operatorUserId;
+
+    /**
+     * 客户第三方id（录入填写）
+     */
+    private String customerUid;
+
+    /**
+     * 联系方式
+     */
+    private String contact;
+
+    private LocalDateTime consultTime;
+
+    /**
+     * 图片
+     */
+    @TableField(typeHandler = FastjsonTypeHandler.class)
+    private List<String> images;
 }

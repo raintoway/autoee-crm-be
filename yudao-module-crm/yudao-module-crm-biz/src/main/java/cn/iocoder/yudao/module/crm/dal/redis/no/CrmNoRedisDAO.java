@@ -25,6 +25,11 @@ public class CrmNoRedisDAO {
     public static final String CONTRACT_NO_PREFIX = "HT";
 
     /**
+     * 行程 {@link cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractTripDO}
+     */
+    public static final String TRIP_NO_PREFIX = "XC";
+
+    /**
      * 回款 {@link cn.iocoder.yudao.module.crm.dal.dataobject.receivable.CrmReceivablePlanDO}
      */
     public static final String RECEIVABLE_PREFIX = "HK";

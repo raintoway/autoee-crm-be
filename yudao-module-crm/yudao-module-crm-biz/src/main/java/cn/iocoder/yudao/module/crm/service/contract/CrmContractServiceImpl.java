@@ -13,11 +13,11 @@ import cn.iocoder.yudao.module.bpm.api.task.dto.BpmProcessInstanceCreateReqDTO;
 import cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract.CrmContractPageReqVO;
 import cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract.CrmContractSaveReqVO;
 import cn.iocoder.yudao.module.crm.controller.admin.contract.vo.contract.CrmContractTransferReqVO;
-import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractConfigDO;
-import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractDO;
-import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractProductDO;
+import cn.iocoder.yudao.module.crm.dal.dataobject.contract.*;
+import cn.iocoder.yudao.module.crm.dal.mysql.contract.CrmContractCostMapper;
 import cn.iocoder.yudao.module.crm.dal.mysql.contract.CrmContractMapper;
 import cn.iocoder.yudao.module.crm.dal.mysql.contract.CrmContractProductMapper;
+import cn.iocoder.yudao.module.crm.dal.mysql.contract.CrmContractTripMapper;
 import cn.iocoder.yudao.module.crm.dal.redis.no.CrmNoRedisDAO;
 import cn.iocoder.yudao.module.crm.enums.common.CrmAuditStatusEnum;
 import cn.iocoder.yudao.module.crm.enums.common.CrmBizTypeEnum;
@@ -45,6 +45,7 @@ import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import static cn.iocoder.yudao.framework.common.exception.util.ServiceExceptionUtil.exception;
@@ -72,7 +73,10 @@ public class CrmContractServiceImpl implements CrmContractService {
     private CrmContractMapper contractMapper;
     @Resource
     private CrmContractProductMapper contractProductMapper;
-
+    @Resource
+    private CrmContractTripMapper contractTripMapper;
+    @Resource
+    private CrmContractCostMapper contractCostMapper;
     @Resource
     private CrmNoRedisDAO noRedisDAO;
 
@@ -111,14 +115,35 @@ public class CrmContractServiceImpl implements CrmContractService {
             throw exception(CONTRACT_NO_EXISTS);
         }
 
+        List<CrmContractSaveReqVO.Trip> tripList = createReqVO.getTrips();
+        List<CrmContractTripDO> trips = convertList(tripList, item -> BeanUtils.toBean(item, CrmContractTripDO.class));
         // 2.1 插入合同
         CrmContractDO contract = BeanUtils.toBean(createReqVO, CrmContractDO.class).setNo(no);
-        calculateTotalPrice(contract, contractProducts);
+        calculateTotalPrice(contract, trips);
         contractMapper.insert(contract);
         // 2.2 插入合同关联商品
         if (CollUtil.isNotEmpty(contractProducts)) {
             contractProducts.forEach(item -> item.setContractId(contract.getId()));
             contractProductMapper.insertBatch(contractProducts);
+        }
+
+        // 2.3 插入合同关联行程
+        if (CollUtil.isNotEmpty(tripList)) {
+            trips.forEach(item -> {
+                item.setContractId(contract.getId());
+                item.setNo(noRedisDAO.generate(CrmNoRedisDAO.TRIP_NO_PREFIX));
+            });
+            contractTripMapper.insertBatch(trips);
+        }
+
+        List<CrmContractSaveReqVO.Cost> costList = createReqVO.getCosts();
+        if (CollUtil.isNotEmpty(costList)) {
+            List<CrmContractCostDO> costs = convertList(costList, item -> BeanUtils.toBean(item, CrmContractCostDO.class));
+            costs.forEach(item -> {
+                item.setContractId(contract.getId());
+                item.setNo(noRedisDAO.generate(CrmNoRedisDAO.TRIP_NO_PREFIX));
+            });
+            contractCostMapper.insertBatch(costs);
         }
 
         // 3. 创建数据权限
@@ -148,19 +173,57 @@ public class CrmContractServiceImpl implements CrmContractService {
         }
         // 1.3 校验产品项的有效性
         List<CrmContractProductDO> contractProducts = validateContractProducts(updateReqVO.getProducts());
+        List<CrmContractTripDO> tripList = convertList(updateReqVO.getTrips(), item -> BeanUtils.toBean(item, CrmContractTripDO.class));
         // 1.4 校验关联字段
         validateRelationDataExists(updateReqVO);
 
         // 2.1 更新合同
         CrmContractDO updateObj = BeanUtils.toBean(updateReqVO, CrmContractDO.class);
-        calculateTotalPrice(updateObj, contractProducts);
+        calculateTotalPrice(updateObj, tripList);
         contractMapper.updateById(updateObj);
         // 2.2 更新合同关联商品
         updateContractProduct(updateReqVO.getId(), contractProducts);
 
+        updateContractTrip(updateReqVO.getId(), tripList);
+        List<CrmContractSaveReqVO.Cost> costList = updateReqVO.getCosts();
+        updateContractCost(updateReqVO.getId(), costList);
+
         // 3. 记录操作日志上下文
         LogRecordContext.putVariable(DiffParseFunction.OLD_OBJECT, BeanUtils.toBean(contract, CrmContractSaveReqVO.class));
         LogRecordContext.putVariable("contractName", contract.getName());
+    }
+
+    private void updateContractCost(Long id, List<CrmContractSaveReqVO.Cost> costList) {
+        List<CrmContractCostDO> newList = convertList(costList, item -> BeanUtils.toBean(item, CrmContractCostDO.class));
+        List<CrmContractCostDO> oldList = contractCostMapper.selectListByContractId(id);
+        List<List<CrmContractCostDO>> diffList = diffList(oldList, newList, // id 不同，就认为是不同的记录
+                (oldVal, newVal) -> oldVal.getId().equals(newVal.getId()));
+        if (CollUtil.isNotEmpty(diffList.get(0))) {
+            diffList.get(0).forEach(o -> o.setContractId(id));
+            contractCostMapper.insertBatch(diffList.get(0));
+        }
+        if (CollUtil.isNotEmpty(diffList.get(1))) {
+            contractCostMapper.updateBatch(diffList.get(1));
+        }
+        if (CollUtil.isNotEmpty(diffList.get(2))) {
+            contractCostMapper.deleteBatchIds(convertSet(diffList.get(2), CrmContractCostDO::getId));
+        }
+    }
+
+    private void updateContractTrip(Long id, List<CrmContractTripDO> newList) {
+        List<CrmContractTripDO> oldList = contractTripMapper.selectListByContractId(id);
+        List<List<CrmContractTripDO>> diffList = diffList(oldList, newList, // id 不同，就认为是不同的记录
+                (oldVal, newVal) -> oldVal.getId().equals(newVal.getId()));
+        if (CollUtil.isNotEmpty(diffList.get(0))) {
+            diffList.get(0).forEach(o -> o.setContractId(id));
+            contractTripMapper.insertBatch(diffList.get(0));
+        }
+        if (CollUtil.isNotEmpty(diffList.get(1))) {
+            contractTripMapper.updateBatch(diffList.get(1));
+        }
+        if (CollUtil.isNotEmpty(diffList.get(2))) {
+            contractTripMapper.deleteBatchIds(convertSet(diffList.get(2), CrmContractTripDO::getId));
+        }
     }
 
     private void updateContractProduct(Long id, List<CrmContractProductDO> newList) {
@@ -214,10 +277,10 @@ public class CrmContractServiceImpl implements CrmContractService {
                 item -> item.setTotalPrice(MoneyUtils.priceMultiply(item.getContractPrice(), item.getCount()))));
     }
 
-    private void calculateTotalPrice(CrmContractDO contract, List<CrmContractProductDO> contractProducts) {
-        contract.setTotalProductPrice(getSumValue(contractProducts, CrmContractProductDO::getTotalPrice, BigDecimal::add, BigDecimal.ZERO));
-        BigDecimal discountPrice = MoneyUtils.priceMultiplyPercent(contract.getTotalProductPrice(), contract.getDiscountPercent());
-        contract.setTotalPrice(contract.getTotalProductPrice().subtract(discountPrice));
+    private void calculateTotalPrice(CrmContractDO contract, List<CrmContractTripDO> crmContractTripDOS) {
+        contract.setTotalTripPrice(getSumValue(crmContractTripDOS, CrmContractTripDO::getPrice, BigDecimal::add, BigDecimal.ZERO));
+        BigDecimal discountPrice = MoneyUtils.priceMultiplyPercent(contract.getTotalTripPrice(), contract.getDiscountPercent());
+        contract.setTotalPrice(contract.getTotalTripPrice().subtract(discountPrice));
     }
 
     @Override
@@ -410,6 +473,16 @@ public class CrmContractServiceImpl implements CrmContractService {
     @Override
     public List<CrmContractDO> getContractListByCustomerIdOwnerUserId(Long customerId, Long ownerUserId) {
         return contractMapper.selectListByCustomerIdOwnerUserId(customerId, ownerUserId);
+    }
+
+    @Override
+    public List<CrmContractTripDO> getContractTripListByContractId(Long id) {
+        return contractTripMapper.selectListByContractId(id);
+    }
+
+    @Override
+    public List<CrmContractCostDO> getContractCostListByContractId(Long id) {
+        return contractCostMapper.selectListByContractId(id);
     }
 
 }

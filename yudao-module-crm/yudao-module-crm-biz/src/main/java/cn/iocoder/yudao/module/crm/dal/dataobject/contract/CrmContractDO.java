@@ -1,9 +1,11 @@
 package cn.iocoder.yudao.module.crm.dal.dataobject.contract;
 
+import cn.iocoder.yudao.framework.excel.core.annotations.DictFormat;
 import cn.iocoder.yudao.framework.mybatis.core.dataobject.BaseDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.business.CrmBusinessDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.contact.CrmContactDO;
 import cn.iocoder.yudao.module.crm.dal.dataobject.customer.CrmCustomerDO;
+import cn.iocoder.yudao.module.crm.enums.DictTypeConstants;
 import cn.iocoder.yudao.module.crm.enums.common.CrmAuditStatusEnum;
 import com.baomidou.mybatisplus.annotation.KeySequence;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -79,6 +81,10 @@ public class CrmContractDO extends BaseDO {
      */
     private Integer auditStatus;
 
+    private Integer tripStatus;
+
+    private Integer paymentStatus;
+
     /**
      * 下单日期
      */
@@ -95,6 +101,7 @@ public class CrmContractDO extends BaseDO {
      * 产品总金额，单位：元
      */
     private BigDecimal totalProductPrice;
+    private BigDecimal totalTripPrice;
     /**
      * 整单折扣
      */

@@ -68,6 +68,11 @@ public class AdminUserDO extends TenantBaseDO {
      * 手机号码
      */
     private String mobile;
+
+    /**
+     * 微信号
+     */
+    private String wechat;
     /**
      * 用户性别
      *

@@ -19,6 +19,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
+import java.util.List;
 
 import static cn.iocoder.yudao.framework.common.util.date.DateUtils.FORMAT_YEAR_MONTH_DAY_HOUR_MINUTE_SECOND;
 import static cn.iocoder.yudao.module.crm.enums.DictTypeConstants.CRM_CUSTOMER_INDUSTRY;
@@ -106,4 +107,29 @@ public class CrmClueSaveReqVO {
     @DiffLogField(name = "备注")
     private String remark;
 
+
+    /**
+     * 操作员id
+     */
+    private Long operatorUserId;
+
+    /**
+     * 客户第三方id（录入填写）
+     */
+    private String customerUid;
+
+    /**
+     * 联系方式
+     */
+    private String contact;
+
+    /**
+     * 咨询时间
+     */
+    private LocalDateTime consultTime;
+
+    /**
+     * 图片
+     */
+    private List<String> images;
 }

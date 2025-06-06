@@ -48,6 +48,10 @@ public class UserRespVO{
     @ExcelProperty("手机号码")
     private String mobile;
 
+    @Schema(description = "微信号", example = "15601691300")
+    @ExcelProperty("微信号")
+    private String wechat;
+
     @Schema(description = "用户性别，参见 SexEnum 枚举类", example = "1")
     @ExcelProperty(value = "用户性别", converter = DictConvert.class)
     @DictFormat(DictTypeConstants.USER_SEX)

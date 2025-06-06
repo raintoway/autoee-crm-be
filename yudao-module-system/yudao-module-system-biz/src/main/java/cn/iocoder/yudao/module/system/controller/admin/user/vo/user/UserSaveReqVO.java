@@ -64,6 +64,10 @@ public class UserSaveReqVO {
     @DiffLogField(name = "用户头像")
     private String avatar;
 
+    @Schema(description = "微信号", example = "15601691300")
+    @DiffLogField(name = "微信号")
+    private String wechat;
+
     // ========== 仅【创建】时，需要传递的字段 ==========
 
     @Schema(description = "密码", requiredMode = Schema.RequiredMode.REQUIRED, example = "123456")
