@@ -4,6 +4,8 @@ import cn.iocoder.yudao.framework.common.pojo.PageParam;
 import cn.iocoder.yudao.framework.common.validation.InEnum;
 import cn.iocoder.yudao.module.crm.enums.common.CrmAuditStatusEnum;
 import cn.iocoder.yudao.module.crm.enums.common.CrmSceneTypeEnum;
+import cn.iocoder.yudao.module.crm.enums.contract.CrmPaymentStatusEnum;
+import cn.iocoder.yudao.module.crm.enums.contract.CrmTripStatusEnum;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -46,5 +48,11 @@ public class CrmContractPageReqVO extends PageParam {
 
     @Schema(description = "过期类型", example = "1")
     private Integer expiryType; // 过期类型，为 null 时则表示全部
+
+    @InEnum(CrmTripStatusEnum.class)
+    private Integer tripStatus;
+
+    @InEnum(CrmPaymentStatusEnum.class)
+    private Integer paymentStatus;
 
 }

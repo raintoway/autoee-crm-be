@@ -481,6 +481,11 @@ public class CrmContractServiceImpl implements CrmContractService {
     }
 
     @Override
+    public List<CrmContractTripDO> getContractTripListByContractIdIn(Collection<Long> ids) {
+        return contractTripMapper.selectListByContractIdIn(ids);
+    }
+
+    @Override
     public List<CrmContractCostDO> getContractCostListByContractId(Long id) {
         return contractCostMapper.selectListByContractId(id);
     }

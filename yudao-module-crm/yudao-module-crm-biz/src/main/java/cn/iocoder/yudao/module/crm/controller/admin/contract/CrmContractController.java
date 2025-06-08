@@ -47,6 +47,7 @@ import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Stream;
 
 import static cn.iocoder.yudao.framework.apilog.core.enums.OperateTypeEnum.EXPORT;
@@ -207,8 +208,14 @@ public class CrmContractController {
         Map<Long, CrmBusinessDO> businessMap = businessService.getBusinessMap(
                 convertSet(contractList, CrmContractDO::getBusinessId));
         // 1.5 获得已回款金额
+        Set<Long> contractIds = convertSet(contractList, CrmContractDO::getId);
         Map<Long, BigDecimal> receivablePriceMap = receivableService.getReceivablePriceMapByContractId(
-                convertSet(contractList, CrmContractDO::getId));
+                contractIds);
+
+        List<CrmContractTripDO> tripList = contractService.getContractTripListByContractIdIn(contractIds);
+        Map<Long, List<CrmContractTripDO>> longListMap = convertMultiMap(tripList, CrmContractTripDO::getContractId, d -> d);
+
+
         // 2. 拼接数据
         return BeanUtils.toBean(contractList, CrmContractRespVO.class, contractVO -> {
             // 2.1 设置客户信息
@@ -224,6 +231,8 @@ public class CrmContractController {
             findAndThen(contactMap, contractVO.getSignContactId(), contact -> contractVO.setSignContactName(contact.getName()));
             // 2.4 设置商机信息
             findAndThen(businessMap, contractVO.getBusinessId(), business -> contractVO.setBusinessName(business.getName()));
+
+            findAndThen(longListMap, contractVO.getId(), d -> contractVO.setTrips(convertList(d, w -> BeanUtils.toBean(w, CrmContractRespVO.Trip.class))));
             // 2.5 设置已回款金额
             contractVO.setTotalReceivablePrice(receivablePriceMap.getOrDefault(contractVO.getId(), BigDecimal.ZERO));
         });

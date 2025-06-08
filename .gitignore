@@ -49,3 +49,5 @@ buildNumber.properties
 http-client-config.json
 logs/
 
+
+.flattened-pom.xml

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <!-- 日志存放路径 -->
-    <property name="LOG_PATH" value="~/Desktops/logs"/>
+    <property name="LOG_PATH" value="./logs"/>
     <!-- 日志文件名称前缀 -->
     <property name="APP_NAME" value="autoee-crm"/>
     <springProperty name="SERVER_PORT" scope="context" source="server.port" defaultValue="8069"/>

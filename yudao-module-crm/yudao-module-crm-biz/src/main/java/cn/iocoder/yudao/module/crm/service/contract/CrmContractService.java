@@ -205,5 +205,8 @@ public interface CrmContractService {
     List<CrmContractDO> getContractListByCustomerIdOwnerUserId(Long customerId, Long ownerUserId);
 
     List<CrmContractTripDO> getContractTripListByContractId(Long id);
+    List<CrmContractTripDO> getContractTripListByContractIdIn(Collection<Long> ids);
+
+
     List<CrmContractCostDO> getContractCostListByContractId(Long id);
 }

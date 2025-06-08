@@ -61,6 +61,8 @@ public interface CrmContractMapper extends BaseMapperX<CrmContractDO> {
                 .eqIfPresent(CrmContractDO::getCustomerId, pageReqVO.getCustomerId())
                 .eqIfPresent(CrmContractDO::getBusinessId, pageReqVO.getBusinessId())
                 .eqIfPresent(CrmContractDO::getAuditStatus, pageReqVO.getAuditStatus())
+                .eqIfPresent(CrmContractDO::getTripStatus, pageReqVO.getTripStatus())
+                .eqIfPresent(CrmContractDO::getPaymentStatus, pageReqVO.getPaymentStatus())
                 .orderByDesc(CrmContractDO::getId);
 
         // Backlog: 即将到期的合同

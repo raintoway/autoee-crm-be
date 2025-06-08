@@ -8,6 +8,7 @@ import cn.iocoder.yudao.module.crm.dal.dataobject.contract.CrmContractTripDO;
 
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -23,4 +24,7 @@ public interface CrmContractTripMapper extends BaseMapperX<CrmContractTripDO> {
         return selectList(new LambdaQueryWrapperX<CrmContractTripDO>().eq(CrmContractTripDO::getContractId, contractId));
     }
 
+    default List<CrmContractTripDO> selectListByContractIdIn(Collection<Long> ids) {
+        return selectList(new LambdaQueryWrapperX<CrmContractTripDO>().in(CrmContractTripDO::getContractId, ids));
+    }
 }
